@@ -92,4 +92,5 @@ tcpdump -i eth0 -nn -v tcp port 5432 -X -w res-secure.dump
 
 ### 15. Проаналізувати вміст перехоплених пакетів в програмі-аналізаторі. Підтвердити відсутність даних у відкритому вигляді.
 
+![image](https://github.com/user-attachments/assets/c4c3aece-495e-4266-bb3d-c08034337867)
 
