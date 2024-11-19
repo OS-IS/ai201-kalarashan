@@ -69,23 +69,27 @@ tcpdump -i eth0 -nn -v -A tcp port 5455 > res.dump
 
 ### 11. Запустити окрему термінальну консоль та становити зв'язок із СКБД PostgreSQL, яка запущена через Docker-контейнер. Після успішного встановлення визначити версію TSL - протоколу та перелік використаних криптографічних алгоритмів.
 
+![image](https://github.com/user-attachments/assets/7c79b56b-2edb-4e2c-a925-0b9096e79a65)
+
 
 ### 12. Виконати команду створення користувача за прикладом з лабораторної роботи №6.
 
-
+![image](https://github.com/user-attachments/assets/83ddf14f-6b90-49a7-939b-d348e4410bb1)
 
 ### 13. Проаналізувати вміст перехоплених пакетів, які було збережено у файлі, наприклад, res1.dump. Підтвердити передачу деяких даних у відкритому вигляді.
 
+![image](https://github.com/user-attachments/assets/c0facad1-bddc-45b1-8437-0195e628178a)
 
 
 ### 14. Повторити пункт 11, встановивши зв’язок із СКБД, але вже через TLS/SSL - з’єднання.
 
 ```
-tcpdump -i eth0 -nn -v tcp port 5466 -X -w res-secure.dump
+tcpdump -i eth0 -nn -v tcp port 5432 -X -w res-secure.dump
 
 ```
-![Image 15](https://github.com/user-attachments/assets/574bacab-b1cc-4dfc-8145-0d0a5e3203e2)
+![image](https://github.com/user-attachments/assets/637c5fdb-4ae4-4d06-86c1-58fbde1ea486)
+
 
 ### 15. Проаналізувати вміст перехоплених пакетів в програмі-аналізаторі. Підтвердити відсутність даних у відкритому вигляді.
 
-![Image 16](https://github.com/user-attachments/assets/6d822740-bda3-48da-99da-e9c3cba3e73d)
+
