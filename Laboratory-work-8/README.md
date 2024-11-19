@@ -29,6 +29,8 @@ openssl req -new -x509 -days 130 -nodes -text -out server.crt -keyout server.key
 
 ### 5. Використовуючи програму psql, встановити TSL/SSL-з'єднання з БД за прикладом з попередньої лабораторної роботи, але використовуючи формат параметрів "host=var1 port=var2 dbname=var3 user=var4 password=var5 sslmode=var6".
 
+![image](https://github.com/user-attachments/assets/7d7fd21c-abe5-4d81-b780-2b38ba65a064)
+
 
 ### 6. Встановити ПЗ контейнерної віртуалізації Docker та запустити Docker через ваш Docker-обліковий запис.
 
